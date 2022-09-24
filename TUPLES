@@ -1,0 +1,38 @@
+#Add an item
+tuple1=(4,6,2,8,3,1)
+tuple2=(4,6,2,8,3,1,9)
+print(tuple1)
+print(tuple2)
+tuple1=tuple1[:5]+(15,20,25)+tuple1[:5]
+list1=list(tuple1)
+print(list(tuple1))
+list1.append(30)
+tuple1=tuple(list1)
+print(tuple1)
+
+#Length of a tuple
+t=tuple(input())
+print(t)
+print(len(t))
+
+#Reverse a Tuple
+x=tuple(input())
+y=tuple(reversed(x))
+print(y)
+
+#Repeated element in a tuple
+n=int(input())
+x=2,4,5,6,2,3,4,4,7
+print(x)
+temp=x.count(n)
+print(temp)
+//we can write this program in different ways
+//01
+tuplex=input()
+print(tuplex)
+count=tuplex.count(4)
+print(count)
+//02
+tuple,n=input(),int(input())
+print(tuple.count(4))
+
